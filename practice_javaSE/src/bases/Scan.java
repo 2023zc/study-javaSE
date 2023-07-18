@@ -1,6 +1,5 @@
 package bases;
 
-import java.io.InputStream;
 import java.util.Scanner;
 
 public class Scan {
@@ -15,6 +14,5 @@ public class Scan {
             int b = scan.nextInt();
             System.out.println(b);
         }
-
     }
 }

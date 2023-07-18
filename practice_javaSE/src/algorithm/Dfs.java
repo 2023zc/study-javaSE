@@ -4,7 +4,7 @@ package algorithm;
 import java.util.Scanner;
 
 //project->module->package->class..
-public class dfs {
+public class Dfs {
     static int n, m, start_x, start_y, point_x, point_y, count = 0, top = 0;
     static int[] rutinue_x = new int[2505];
     static int[] rutinue_y = new int[2505];
