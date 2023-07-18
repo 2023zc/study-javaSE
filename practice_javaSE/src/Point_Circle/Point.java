@@ -1,8 +1,16 @@
 package Point_Circle;
 
 public class Point {
-    private double x=0;
-    private double y=0;
+    private double x;
+    private double y;
+    public Point(double x, double y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public Point() {
+    }
+
     public double getX(){
         return this.x;
     }
