@@ -3,7 +3,7 @@ package Point_Circle;
 public class Circle {
     private Point Center;
     private double R;
-    Circle(){   //初始化值
+    public Circle(){   //初始化值
         this.Center=new Point();
     }
 
