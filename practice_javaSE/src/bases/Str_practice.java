@@ -2,7 +2,7 @@ package bases;
 
 import java.util.Scanner;
 
-public class Str {
+public class Str_practice {
     static Scanner cin=new Scanner(System.in);
     static String right_username="itheima";
     static String right_password="123456";
