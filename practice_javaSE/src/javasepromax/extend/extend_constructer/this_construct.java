@@ -1,6 +1,7 @@
 package javasepromax.extend.extend_constructer;
 
 public class this_construct {
+
     public static void main(String[] args) {
         student s=new student("小明",18);
         System.out.println(s.getName());
