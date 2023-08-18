@@ -8,6 +8,7 @@ public class Teacher extends People {
         super(name, age);
         this.skill = skill;
     }
+
     public String getSkill() {
         return skill;
     }
@@ -19,8 +20,8 @@ public class Teacher extends People {
     @Override  //重写toString方法
     public String toString() {
         return "Teacher{" +
-                "name='"+getName()+'\''+
-                "age='"+getAge()+'\''+
+                "name='" + getName() + '\'' +
+                "age='" + getAge() + '\'' +
                 "skill='" + skill + '\'' +
                 '}';
     }

@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 public class My_Array_list {
     public static void main(String[] args) {
-        ArrayList <String> list=new ArrayList<>();
+        ArrayList<String> list = new ArrayList<>();
 
         list.add("黑枸杞");
         list.add("枸杞子");
@@ -23,9 +23,9 @@ public class My_Array_list {
         方法一:正着删，每次删除都让i--；
         方法二:反着删除即可
          */
-        for(int i=list.size()-1;i>=0;i--){
-            String str=list.get(i);
-            if(str.contains("枸杞")){
+        for (int i = list.size() - 1; i >= 0; i--) {
+            String str = list.get(i);
+            if (str.contains("枸杞")) {
                 list.remove(str);
             }
         }

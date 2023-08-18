@@ -23,7 +23,7 @@ public class Draw_one_card {
         } else if (num > 73 && num <= 89) {
             p = p + (num - 73) * 6;
         }
-        ans = random.nextDouble(1)*100;
+        ans = random.nextDouble(1) * 100;
         if (ans >= p) {
             finalans = 3;
         } else {
@@ -67,7 +67,7 @@ public class Draw_one_card {
             if (only_one_num_1 > 0 || only_one_num_2 > 0) {
                 System.out.println("在第" + i + "次抽卡中成功抽出" + only_one_num_1 + "个5星限定角色," + only_one_num_2 + "个5星常驻角色!");
             }
-            if(only_one_num_1==0&&only_one_num_2==0){
+            if (only_one_num_1 == 0 && only_one_num_2 == 0) {
                 System.out.println("在第" + i + "次抽卡中,什么都没抽到qwq");
             }
             only_one_num_1 = 0;
@@ -82,7 +82,7 @@ public class Draw_one_card {
     public int[][] Draw_ten_cards_ans(int num) {    //十连抽的函数,num表示进行10连抽的次数,x表示判断一次十连抽中抽出x个五星;
         int now_num = 0, ans, wai = 0, only_one_num_1 = 0, only_one_num_2 = 0;
         //储存一次10连抽抽到的5星限定角色和5星常驻角色的数量
-        int[][] chou_ans=new int[num+1][2];
+        int[][] chou_ans = new int[num + 1][2];
         for (int i = 1; i <= num; i++) {
             now_num++;
             for (int j = 1; j <= 10; j++) {
@@ -103,8 +103,8 @@ public class Draw_one_card {
                         break;
                 }
             }
-            chou_ans[i][0]=only_one_num_1;
-            chou_ans[i][1]=only_one_num_2;
+            chou_ans[i][0] = only_one_num_1;
+            chou_ans[i][1] = only_one_num_2;
             only_one_num_1 = 0;
             only_one_num_2 = 0;
         }

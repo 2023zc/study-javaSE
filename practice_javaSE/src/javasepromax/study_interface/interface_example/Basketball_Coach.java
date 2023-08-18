@@ -1,6 +1,6 @@
 package javasepromax.study_interface.interface_example;
 
-public class Basketball_Coach extends Coach{
+public class Basketball_Coach extends Coach {
     public Basketball_Coach() {
     }
 

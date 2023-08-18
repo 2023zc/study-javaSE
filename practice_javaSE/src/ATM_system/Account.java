@@ -58,11 +58,12 @@ public class Account {
     public void setPassword(String password) {
         this.password = password;
     }
-    public void display(){
+
+    public void display() {
         System.out.println("============当前账户信息如下============");
-        System.out.println("卡号:"+this.getCreadit_ID());
-        System.out.println("户主:"+this.getOwner_name());
-        System.out.println("余额:"+this.getRemain_money());
-        System.out.println("限额:"+this.getWithdrawal_limit());
+        System.out.println("卡号:" + this.getCreadit_ID());
+        System.out.println("户主:" + this.getOwner_name());
+        System.out.println("余额:" + this.getRemain_money());
+        System.out.println("限额:" + this.getWithdrawal_limit());
     }
 }

@@ -1,6 +1,6 @@
 package javasepromax.study_interface.interface_example;
 
-public abstract class Coach extends People{
+public abstract class Coach extends People {
     public Coach() {
     }
 

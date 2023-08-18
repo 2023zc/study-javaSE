@@ -1,6 +1,6 @@
 package javasepromax.study_interface.interface_base;
 
-public class Frog extends Animal implements Swim{
+public class Frog extends Animal implements Swim {
     public Frog(String name, int age) {
         super(name, age);
     }

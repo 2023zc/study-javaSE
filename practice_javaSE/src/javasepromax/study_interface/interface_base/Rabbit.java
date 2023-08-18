@@ -1,6 +1,6 @@
 package javasepromax.study_interface.interface_base;
 
-public class Rabbit extends Animal{
+public class Rabbit extends Animal {
     public Rabbit(String name, int age) {
         super(name, age);
     }

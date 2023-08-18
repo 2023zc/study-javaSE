@@ -1,6 +1,6 @@
 package javasepromax.study_interface.interface_extend;
 
-public class Inter_test implements Inter3{
+public class Inter_test implements Inter3 {
     @Override
     public void method3() {
 
