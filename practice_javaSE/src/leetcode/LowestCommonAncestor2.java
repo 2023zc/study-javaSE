@@ -11,6 +11,8 @@ public class LowestCommonAncestor2 {
     private List<TreeNode> parr=new ArrayList<>();
     private List<TreeNode> qarr=new ArrayList<>();
 
+    //思路:先找到到达p节点和到达q节点的路径,那么两个路径第一个不同节点的前一个节点也就是最进的祖先节点
+
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         findtarget(root,p);
         arr.clear();
